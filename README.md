@@ -1,4 +1,2 @@
-# Singleton
-# StateProject
-# StateProject
+
 # StateProject
