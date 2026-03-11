@@ -1,0 +1,1 @@
+{"version":3,"file":"EstadoPedido.d.ts","sourceRoot":"","sources":["../../src/state/EstadoPedido.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,WAAW,CAAC;AAExC,MAAM,WAAW,YAAY;IAC3B,YAAY,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI,CAAC;IACnC,MAAM,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI,CAAC;CAC9B"}

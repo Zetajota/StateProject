@@ -1,0 +1,1 @@
+{"version":3,"file":"Pagado.d.ts","sourceRoot":"","sources":["../../../src/state/estadosConcretos/Pagado.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,MAAM,EAAE,MAAM,cAAc,CAAC;AAGtC,qBAAa,MAAO,YAAW,YAAY;IACzC,YAAY,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;IAIlC,MAAM,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;CAK7B"}

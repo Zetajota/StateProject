@@ -1,0 +1,1 @@
+{"version":3,"file":"LogisticsFactory.d.ts","sourceRoot":"","sources":["../../src/factory/LogisticsFactory.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,6BAA6B,CAAC;AAC9D,OAAO,EAAE,kBAAkB,EAAE,MAAM,gCAAgC,CAAC;AACpE,OAAO,EAAE,YAAY,EAAE,MAAM,uBAAuB,CAAC;AAErD,MAAM,WAAW,gBAAgB;IAC/B,UAAU,IAAI,eAAe,CAAC;IAC9B,aAAa,IAAI,kBAAkB,CAAC;IACpC,kBAAkB,IAAI,YAAY,CAAC;CACpC"}

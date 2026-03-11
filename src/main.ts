@@ -1,30 +1,24 @@
-import { BaseDeDatos } from "./BaseDeDatos";
+import { FactoryLocal, FactoryZonaRemota } from './factory';
+import { Pedido } from './Pedido';
+// --- CLIENTE (main.ts) ---
+console.log("--SISTEMA E-COMMERCE --");
 
-console.log("\n=== INICIANDO SISTEMA DE VENTAS ===");
+console.log("\n--- Escenario 1: Pedido Local ---");
+const factoryLocal = new FactoryLocal();
+const pedidoLocal = new Pedido(factoryLocal, 100.0);
 
-const pcCajero1 = BaseDeDatos.obtenerInstancia();
-const pcCajero2 = BaseDeDatos.obtenerInstancia();
-const pcGerencia = BaseDeDatos.obtenerInstancia();
-
-console.log(`[VERIFICACIÓN] ¿pcCajero1 y pcGerencia comparten memoria?: ${pcCajero1 === pcGerencia}\n`);
-
-// ESTADO INICIAL
-console.log("--- CONSULTA DE PRECIOS (TASA OFICIAL) ---");
-pcCajero1.mostrarPrecioEnDolares(6);
-
-// ACTUALIZACIÓN GLOBAL
-console.log("\n--- ACTUALIZACIÓN DE SISTEMA ---");
-pcGerencia.actualizarTasaCambio(7.50);
-
-console.log("\n--- NUEVA CONSULTA DE PRECIOS ---");
-pcCajero2.mostrarPrecioEnDolares(6);
-
-// TRANSACCIONES 
-console.log("\n--- REGISTRANDO TRANSACCIONES ---");
-pcCajero1.venderProducto(1, "Caja 1"); 
-pcCajero2.venderProducto(10, "Caja 2"); 
-pcCajero1.venderProducto(6, "Caja 1"); 
+console.log(`Total a pagar: $${pedidoLocal.calcularTotal()}`);
+pedidoLocal.procesarPago(); // Cambia a Pagado
+pedidoLocal.enviar();       // Cambia a Enviado
 
 
-// AUDITORÍA 
-pcGerencia.mostrarHistorial();
+console.log("\n--- Escenario 2: Pedido Zona Remota ---");
+const factoryRemoto = new FactoryZonaRemota();
+const pedidoRemoto = new Pedido(factoryRemoto, 100.0);
+
+console.log(`Total a pagar: $${pedidoRemoto.calcularTotal()}`);
+// Intentamos enviar antes de pagar (El patrón State lo evita)
+pedidoRemoto.enviar();
+// Flujo correcto
+pedidoRemoto.procesarPago();
+pedidoRemoto.enviar();

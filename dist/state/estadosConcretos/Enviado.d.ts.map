@@ -1,0 +1,1 @@
+{"version":3,"file":"Enviado.d.ts","sourceRoot":"","sources":["../../../src/state/estadosConcretos/Enviado.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,MAAM,EAAE,MAAM,cAAc,CAAC;AAEtC,qBAAa,OAAQ,YAAW,YAAY;IAC1C,YAAY,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;IAIlC,MAAM,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;CAG7B"}

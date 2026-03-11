@@ -1,0 +1,1 @@
+{"version":3,"file":"ImpuestoNacional.js","sourceRoot":"","sources":["../../../src/strategy/estrategiasConcretas/ImpuestoNacional.ts"],"names":[],"mappings":";;;AAEA,MAAa,gBAAgB;IAC3B,gBAAgB,CAAC,SAAiB;QAChC,OAAO,CAAC,GAAG,CAAC,sCAAsC,CAAC,CAAC;QACpD,OAAO,SAAS,GAAG,IAAI,CAAC;IAC1B,CAAC;CACF;AALD,4CAKC"}

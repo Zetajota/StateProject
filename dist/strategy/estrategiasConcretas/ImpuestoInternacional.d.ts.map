@@ -1,0 +1,1 @@
+{"version":3,"file":"ImpuestoInternacional.d.ts","sourceRoot":"","sources":["../../../src/strategy/estrategiasConcretas/ImpuestoInternacional.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAE3D,qBAAa,qBAAsB,YAAW,kBAAkB;IAC9D,gBAAgB,CAAC,SAAS,EAAE,MAAM,GAAG,MAAM;CAI5C"}

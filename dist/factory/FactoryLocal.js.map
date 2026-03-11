@@ -1,0 +1,1 @@
+{"version":3,"file":"FactoryLocal.js","sourceRoot":"","sources":["../../src/factory/FactoryLocal.ts"],"names":[],"mappings":";;;AAIA,oFAAiF;AACjF,wFAAqF;AACrF,2DAAwD;AAExD,MAAa,YAAY;IACvB,UAAU;QACR,OAAO,IAAI,+BAAc,EAAE,CAAC;IAC9B,CAAC;IAED,aAAa;QACX,OAAO,IAAI,mCAAgB,EAAE,CAAC;IAChC,CAAC;IAED,kBAAkB;QAChB,OAAO,IAAI,aAAK,EAAE,CAAC;IACrB,CAAC;CACF;AAZD,oCAYC"}

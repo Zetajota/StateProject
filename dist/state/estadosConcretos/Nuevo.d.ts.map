@@ -1,0 +1,1 @@
+{"version":3,"file":"Nuevo.d.ts","sourceRoot":"","sources":["../../../src/state/estadosConcretos/Nuevo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,MAAM,EAAE,MAAM,cAAc,CAAC;AAGtC,qBAAa,KAAM,YAAW,YAAY;IACxC,YAAY,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;IAMlC,MAAM,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;CAG7B"}

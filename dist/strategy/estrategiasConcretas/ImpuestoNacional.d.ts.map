@@ -1,0 +1,1 @@
+{"version":3,"file":"ImpuestoNacional.d.ts","sourceRoot":"","sources":["../../../src/strategy/estrategiasConcretas/ImpuestoNacional.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAE3D,qBAAa,gBAAiB,YAAW,kBAAkB;IACzD,gBAAgB,CAAC,SAAS,EAAE,MAAM,GAAG,MAAM;CAI5C"}
